@@ -2,7 +2,8 @@
 function view()
 {
     let data = JSON.parse(localStorage.getItem('posts'));
-    for(let post of data)
+    let posts = data.reverse();
+    for(let post of posts)
     {
 
         const card = document.createElement('div');

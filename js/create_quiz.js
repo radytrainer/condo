@@ -36,7 +36,6 @@ function displayPost()
         posts = JSON.parse(localStorage.getItem('posts'));
         const cardContainer = document.querySelector('.card-container');
         cardContainer.remove();
-        console.log(cardContainer)
         const newContainer = document.createElement('div');
         newContainer.className = 'card-container';
         container.appendChild(newContainer);
