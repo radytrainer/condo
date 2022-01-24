@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condo</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">View</a></li>
+            <li class="active"><a href="post.html">Post</a></li>
+        </ul>
+    </nav>
+    <div class="container-form">
+        <div class="form-group">
+            <input type="text" placeholder="Title" id="title">
+        </div>
+        <div class="form-group">
+            <input type="number" placeholder="Price" id="price">
+        </div>
+        <div class="form-group">
+            <input type="radio" value="sad" name="status" id="sad">
+            <label for="sad">Sad</label>
+            <input type="radio" value="happy" name="status" id="happy">
+            <label for="happy">Happy</label>
+        </div>
+        <div class="form-group">
+            <button class="btn">Post</button>
+        </div>
+
+    </div>
+    <div class="container">
+        <div class="card-container"></div>
+    </div>
+</body>
+<script src="js/create_quiz.js" defer></script>
+</html>
